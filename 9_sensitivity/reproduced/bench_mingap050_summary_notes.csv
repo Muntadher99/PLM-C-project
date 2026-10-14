@@ -1,0 +1,31 @@
+item,text
+source file,C:\Users\medos\OneDrive\Desktop\PLMC-reviewer package\PLM-C_reproducibility_package\9_sensitivity\reproduced\bench_mingap050.csv
+rows aggregated,6300
+arms,"PLM-C, PLM-MS, SQP-MS, MS-TB, FSSA"
+budgets (NFE per Ma),"500, 1000, 2000, 4000, 8000, 20000"
+THD49,"RMS of odd non-triplen orders 5..49 relative to b1, in percent"
+WTHD999,sqrt(sum((b_n/n)^2))/|b1| to order 999
+acceptance rule,"One rule, applied by evaluate_candidates to every arm: |b1-Ma| < 1e-8 and constraint violation < 1e-9"
+averaging,THD statistics use accepted points only; accept_pct is on the same row.
+nfe_ratio,achieved / target evaluations per operating point.
+head2head sign,Positive ref_advantage_pp means PLM-C has the lower THD49.
+head2head fairness,budget_mismatch_x is max/min of the two arms' achieved NFE; above 1.15 the row is labelled UNFAIR.
+paired test,"Wilcoxon signed-rank on per-(Ma, seed) differences, normal approximation with tie and continuity correction; only pairs where both arms were accepted."
+seed_identical_pct,Share of operating points at which every seed returned the identical THD49.
+status DID-NOT-RUN,accept < 5% or achieved NFE below 10% of target; THD statistics blanked.
+status OVERSPENT,achieved NFE above 1.10x target.
+status UNDERSPENT,achieved NFE below 0.85x target.
+status PARTIAL,accept below 80%.
+--- GLOSSARY ---,short name  ->  full name  (arm key in the CSV)
+PLM-C,Projected Levenberg-Marquardt with bidirectional continuation (proposed)   [CSV arm = gn_hybrid]
+PLM-MS,"Projected Levenberg-Marquardt, independent multi-start   [CSV arm = gn_multistart]"
+SQP-MS,"fmincon SQP, independent multi-start (same formulation and starts)   [CSV arm = sqp_multistart]"
+MS-TB,"MultiStart, MATLAB Global Optimization Toolbox [28]   [CSV arm = multistart_tb]"
+FSSA,"Simulated annealing with continuation, reimplementation of [2]   [CSV arm = fssa]"
+SEED CHECK,passed -- every arm produced seed-to-seed variation at the smallest budget
+flagged 1,"PLM-C        B=500      OVERSPENT          (accept 100.0%, 1.10x target, achieved NFE 550)"
+flagged 2,"PLM-MS       B=500      UNDERSPENT         (accept 100.0%, 0.78x target, achieved NFE 392)"
+flagged 3,"SQP-MS       B=500      DID-NOT-RUN        (accept 0.0%, 0.00x target, achieved NFE 0)"
+flagged 4,"MS-TB        B=500      PARTIAL            (accept 40.0%, 0.95x target, achieved NFE 474)"
+flagged 5,"MS-TB        B=1000     PARTIAL            (accept 74.8%, 1.00x target, achieved NFE 1002)"
+flagged 6,"FSSA         B=500      PARTIAL            (accept 75.2%, 0.86x target, achieved NFE 429)"

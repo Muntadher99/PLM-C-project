@@ -1,0 +1,2 @@
+name,arm_key,family,engine,strategy,n_points,accept_pct,mean_THD49_pct,median_THD49_pct,p90_THD49_pct,worst_THD49_pct,median_WTHD999_pct,compliant_pct,mean_nfe_ratio,median_time_s,p90_time_s
+PLM-C/Z1P,gn_hybrid_zeroth_fwd,ablation,projected-LM,continuation-zeroth-1pass,840,100,4.05372,3.52154,6.62229,19.4359,0.661884,51.0714,0.970644,5.52796,12.3768

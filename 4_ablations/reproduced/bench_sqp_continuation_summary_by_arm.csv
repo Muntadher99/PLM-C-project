@@ -1,0 +1,2 @@
+name,arm_key,family,engine,strategy,n_points,accept_pct,mean_THD49_pct,median_THD49_pct,p90_THD49_pct,worst_THD49_pct,median_WTHD999_pct,compliant_pct,mean_nfe_ratio,median_time_s,p90_time_s
+SQP-C,sqp_hybrid,proposed,fmincon-SQP,continuation,1050,100,4.41192,3.52154,6.62229,45.4922,0.676292,44.7619,1.05782,14.7107,61.2287

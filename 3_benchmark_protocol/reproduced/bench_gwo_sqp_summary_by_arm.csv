@@ -1,0 +1,2 @@
+name,arm_key,family,engine,strategy,n_points,accept_pct,mean_THD49_pct,median_THD49_pct,p90_THD49_pct,worst_THD49_pct,median_WTHD999_pct,compliant_pct,mean_nfe_ratio,median_time_s,p90_time_s
+GWO-SQP,gwo_sqp_box,modern,fmincon-SQP,gwo-hybrid-boxspace,1260,99.8413,18.9678,12.4309,42.5876,149.876,2.05138,14.4674,0.998312,7.88006,33.4872

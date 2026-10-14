@@ -1,0 +1,6 @@
+name,arm_key,family,engine,strategy,spwm,nfe_target,n_points,accept_pct,mean_THD49_pct,median_THD49_pct,p90_THD49_pct,worst_THD49_pct,sd_THD49_pct,median_WTHD999_pct,compliant_pct,mean_NFE_achieved,nfe_ratio,median_time_s,seed_identical_pct,status
+SQP-C,sqp_hybrid,proposed,fmincon-SQP,continuation,0,1000,210,100,7.57617,5.32312,17.888,45.4922,7.29331,0.810872,21.9048,1040.04,1.04004,5.1,0,ok
+SQP-C,sqp_hybrid,proposed,fmincon-SQP,continuation,0,2000,210,100,4.06875,3.55482,6.64094,13.1016,2.13622,0.677898,42.381,2180.92,1.09046,8.61736,0,ok
+SQP-C,sqp_hybrid,proposed,fmincon-SQP,continuation,0,4000,210,100,3.57325,3.41746,6.11708,6.6503,1.68149,0.651278,50,4302.21,1.07555,14.7107,0,ok
+SQP-C,sqp_hybrid,proposed,fmincon-SQP,continuation,0,8000,210,100,3.44735,3.04886,6.05939,6.62229,1.73277,0.636924,54.2857,8630.8,1.07885,27.308,9.52381,ok
+SQP-C,sqp_hybrid,proposed,fmincon-SQP,continuation,0,20000,210,100,3.3941,2.9308,6.05939,6.62229,1.75711,0.634749,55.2381,20084.2,1.00421,62.1593,9.52381,ok

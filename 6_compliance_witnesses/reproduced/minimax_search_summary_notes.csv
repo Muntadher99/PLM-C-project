@@ -1,0 +1,9 @@
+item,text
+source file,C:\Users\medos\OneDrive\Desktop\PLMC-reviewer package\PLM-C_reproducibility_package\6_compliance_witnesses\reproduced\minimax_search.csv
+Q definition,"Qhat = max_n q_n of the returned angle set, q_n = |b_n|/(L_n |b1|); the global minimax value Q* = min over feasible theta of max_n q_n s.t. b1 = Ma (Eq. (10)); Qhat is an upper bound on Q*"
+Qhat <= 1,An explicit feasible angle set meets every limit: compliance is achievable at this operating point (constructive).
+Qhat > 1,No compliant set was found from the starts used; this is not a proof that none exists.
+Qhat any vs mmax,Qhat any is the lowest loading from any objective mode; Qhat mmax that of the minimax mode alone.
+matched budget,"All three modes get the same NFE budget and the same random starts; per-start cost differs (thd ~132, comply ~183, minimax ~269 NFE)."
+compliance test,MAXQ <= 1 + 0.0001
+price of compliance,THD_at_Qhat_pct minus THD_at_minTHD_pct.

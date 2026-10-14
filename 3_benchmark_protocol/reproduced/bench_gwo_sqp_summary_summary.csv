@@ -1,0 +1,7 @@
+name,arm_key,family,engine,strategy,spwm,nfe_target,n_points,accept_pct,mean_THD49_pct,median_THD49_pct,p90_THD49_pct,worst_THD49_pct,sd_THD49_pct,median_WTHD999_pct,compliant_pct,mean_NFE_achieved,nfe_ratio,median_time_s,seed_identical_pct,status
+GWO-SQP,gwo_sqp_box,modern,fmincon-SQP,gwo-hybrid-boxspace,0,500,210,99.5238,36.8654,23.5246,85.5978,149.876,31.1293,3.61973,0.956938,501.7,1.0034,2.01166,0,ok
+GWO-SQP,gwo_sqp_box,modern,fmincon-SQP,gwo-hybrid-boxspace,0,1000,210,99.5238,24.4352,17.6485,59.2409,101.749,20.388,2.91756,4.78469,1001.8,1.0018,3.89342,0,ok
+GWO-SQP,gwo_sqp_box,modern,fmincon-SQP,gwo-hybrid-boxspace,0,2000,210,100,17.1358,12.7035,37.178,69.8311,13.6373,2.00787,7.61905,2001.9,1.00095,6.09782,0,ok
+GWO-SQP,gwo_sqp_box,modern,fmincon-SQP,gwo-hybrid-boxspace,0,4000,210,100,13.0418,9.2103,24.7841,64.592,11.0823,1.55697,19.5238,4002,1.0005,9.37745,0,ok
+GWO-SQP,gwo_sqp_box,modern,fmincon-SQP,gwo-hybrid-boxspace,0,8000,210,100,11.7968,8.77553,22.4938,70.6531,10.0612,1.49666,22.381,8002.7,1.00034,16.3526,0,ok
+GWO-SQP,gwo_sqp_box,modern,fmincon-SQP,gwo-hybrid-boxspace,0,20000,210,100,10.6434,6.96834,21.9735,49.9566,9.43831,1.30969,31.4286,19657.7,0.982885,33.9384,0,ok

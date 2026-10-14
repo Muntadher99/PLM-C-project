@@ -1,0 +1,5 @@
+name,arm_key,family,engine,strategy,spwm,nfe_target,n_points,accept_pct,mean_THD49_pct,median_THD49_pct,p90_THD49_pct,worst_THD49_pct,sd_THD49_pct,median_WTHD999_pct,compliant_pct,mean_NFE_achieved,nfe_ratio,median_time_s,seed_identical_pct,status
+PLM-C/Z1P,gn_hybrid_zeroth_fwd,ablation,projected-LM,continuation-zeroth-1pass,0,1000,210,100,5.29918,4.1275,11.2115,19.4359,3.54556,0.735556,37.619,934.543,0.934543,2.40193,0,ok
+PLM-C/Z1P,gn_hybrid_zeroth_fwd,ablation,projected-LM,continuation-zeroth-1pass,0,2000,210,100,4.08824,3.52154,6.69366,13.0145,2.53455,0.664493,51.4286,1918.73,0.959367,3.64828,0,ok
+PLM-C/Z1P,gn_hybrid_zeroth_fwd,ablation,projected-LM,continuation-zeroth-1pass,0,8000,210,100,3.45235,3.04886,6.21357,7.26,1.81307,0.636932,56.6667,7936.56,0.99207,7.27001,0,ok
+PLM-C/Z1P,gn_hybrid_zeroth_fwd,ablation,projected-LM,continuation-zeroth-1pass,0,20000,210,100,3.37513,2.84864,6.05939,6.62229,1.78356,0.632951,58.5714,19931.9,0.996597,12.3628,23.8095,ok

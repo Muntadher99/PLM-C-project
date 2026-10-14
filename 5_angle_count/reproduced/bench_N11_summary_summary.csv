@@ -1,0 +1,7 @@
+name,arm_key,family,engine,strategy,spwm,nfe_target,n_points,accept_pct,mean_THD49_pct,median_THD49_pct,p90_THD49_pct,worst_THD49_pct,sd_THD49_pct,median_WTHD999_pct,compliant_pct,mean_NFE_achieved,nfe_ratio,median_time_s,seed_identical_pct,status
+PLM-C,gn_hybrid,proposed,projected-LM,continuation,0,2000,210,100,15.7301,9.46289,35.0056,54.5317,11.8017,1.17914,3.33333,1910.36,0.955179,4.27782,0,ok
+PLM-C,gn_hybrid,proposed,projected-LM,continuation,0,20000,210,100,12.8376,8.03989,29.9482,32.3377,9.09103,0.89897,6.66667,19909.3,0.995466,11.8749,9.52381,ok
+SQP-MS,sqp_multistart,proposed,fmincon-SQP,multistart,0,2000,210,100,17.2791,10.6104,37.0044,64.6707,13.6107,1.33923,5.2381,2028.08,1.01404,8.40986,0,ok
+SQP-MS,sqp_multistart,proposed,fmincon-SQP,multistart,0,20000,210,100,11.8861,8.21548,24.0119,32.3377,7.56382,0.965523,7.61905,20058.9,1.00295,62.0869,4.7619,ok
+PLM-MS,gn_multistart,proposed,projected-LM,multistart,0,2000,210,100,20.4957,12.0596,43.9765,67.6415,16.2598,1.4921,3.80952,1908.14,0.954069,1.70683,0,ok
+PLM-MS,gn_multistart,proposed,projected-LM,multistart,0,20000,210,100,14.6165,8.42809,32.936,41.7725,11.0324,1.01795,5.2381,19912.8,0.995638,10.8038,4.7619,ok

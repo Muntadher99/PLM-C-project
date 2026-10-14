@@ -1,0 +1,4 @@
+name,arm_key,family,engine,strategy,n_points,accept_pct,mean_THD49_pct,median_THD49_pct,p90_THD49_pct,worst_THD49_pct,median_WTHD999_pct,compliant_pct,mean_nfe_ratio,median_time_s,p90_time_s
+PLM-C,gn_hybrid,proposed,projected-LM,continuation,420,100,14.2839,8.59536,32.0545,54.5317,1.06269,5,0.975322,7.64768,12.1587
+SQP-MS,sqp_multistart,proposed,fmincon-SQP,multistart,420,100,14.5826,9.2214,31.419,64.6707,1.25147,6.42857,1.00849,35.0936,63.7769
+PLM-MS,gn_multistart,proposed,projected-LM,multistart,420,100,17.5561,10.2157,37.1923,67.6415,1.29751,4.52381,0.974853,5.82661,10.8384

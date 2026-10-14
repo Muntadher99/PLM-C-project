@@ -1,0 +1,7 @@
+quantity,value,meaning
+operating points total,21,points on the modulation-index grid
+compliance witness exhibited,18,median over the seeds of Qhat <= 1 (Table 7 uses the best seed)
+min-THD optimum violates a limit,9,MAXQ > 1 at the minimum-THD solution
+witness but min-THD violates,6,compliance achieved by the minimax stage where the distortion minimum violates
+witness but penalty missed it,8,the weighted-penalty formulation found no compliant point
+minimax beaten by THD mode on MAXQ,3,THD mode buys about twice the starts at matched NFE

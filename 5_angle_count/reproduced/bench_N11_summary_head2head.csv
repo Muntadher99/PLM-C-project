@@ -1,0 +1,5 @@
+budget,reference,other,n_pairs,n_possible,ref_advantage_pp,ref_wins,ref_losses,ties,p_signrank,significant,ref_NFE_spent,other_NFE_spent,budget_mismatch_x,comparison
+2000,PLM-C,SQP-MS,210,210,1.54894,123,80,7,0.000529618,yes,1910.36,2028.08,1.06162,matched
+2000,PLM-C,PLM-MS,210,210,4.76559,162,41,7,1.36742e-21,yes,1910.36,1908.14,1.00116,matched
+20000,PLM-C,SQP-MS,210,210,-0.951471,81,82,47,0.00540992,yes,19909.3,20058.9,1.00751,matched
+20000,PLM-C,PLM-MS,210,210,1.77893,114,38,58,4.75401e-12,yes,19909.3,19912.8,1.00017,matched
